@@ -1,16 +1,48 @@
-header {
-
+#super-container {
+    flex-direction: column;
 }
 
-nav {
-    
+div, header, aside {
+    display: flex;
+}
+
+.main-container {
+    width: 60%;
+}
+
+.menu-container {
+    flex-direction: row;
+    background-color: lavender;
+}
+
+.content-container {
+    background-color: lightgoldenrodyellow;
+}
+
+.title-container {
+    background-color: lightgreen;
+}
+
+.text-container {
+    background-color: lightgrey;
+}
+
+.button-container {
+    background-color: lightseagreen;
 }
 
 img {
-    width: 128px;
-    height: 128px;
+    width: 100px;
+    height: 100px;
 }
 
-h1 {
-    color:pink;
+.sidebar-container {
+    flex-direction: column;
+    width: 40%;
+
+
+}
+
+figcaption {
+    font-size: 10px;
 }
